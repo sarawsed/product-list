@@ -1,0 +1,28 @@
+.category {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.category button {
+  padding: 16px 20px;
+  border: 2px solid #dd49ab;
+  color: #f0f0f0;
+  background-color: transparent;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.category button:hover {
+  background-color: #dd49ab;
+}
+.active-category {
+  background-color: #dd49ab !important;
+}
